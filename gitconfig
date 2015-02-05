@@ -1,8 +1,8 @@
 [user]
-  name  = Valentin Brajon
-  email = vbrajon@gmail.com
+  name  = Maxime Thoonsen
+  email = maximet@theodo.fr
 [core]
-  editor = vim
+  editor = nano
   excludesfile = ~/.gitexcludes
 [push]
   default = current
@@ -21,5 +21,3 @@
   wip = !git commit --all -m "[WIP]"
 [url "https://"]
   insteadOf = git://
-[merge]
-  tool = vimdiff

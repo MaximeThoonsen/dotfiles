@@ -4,9 +4,9 @@
 ls ~/.z.sh || (curl https://raw.githubusercontent.com/rupa/z/master/z.sh > ~/.z.sh)
 
 # Vim
-mkdir -p ~/.vim/tmp
-mkdir -p ~/.vim/bundle
-ls ~/.vim/bundle/Vundle.vim || git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#mkdir -p ~/.vim/tmp
+#mkdir -p ~/.vim/bundle
+#ls ~/.vim/bundle/Vundle.vim || git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Symlinks
 SCRIPT=$(readlink -f $0)
@@ -29,4 +29,3 @@ ln -s $SCRIPTPATH/tmux.conf ~/.tmux.conf
 ln -s $SCRIPTPATH/vimrc ~/.vimrc
 ln -s $SCRIPTPATH/zsh ~/.zsh
 ln -s $SCRIPTPATH/zshrc ~/.zshrc
-
