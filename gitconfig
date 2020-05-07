@@ -21,3 +21,5 @@
   wip = !git commit --all -m "[WIP]"
 [url "https://"]
   insteadOf = git://
+[help]
+	autoCorrect = 20
